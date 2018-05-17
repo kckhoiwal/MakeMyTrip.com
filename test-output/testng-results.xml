@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="2465" started-at="2018-05-17T10:40:38Z" finished-at="2018-05-17T10:40:41Z">
+    <groups>
+    </groups>
+    <test name="Make my Trip Test Cases" duration-ms="2465" started-at="2018-05-17T10:40:38Z" finished-at="2018-05-17T10:40:41Z">
+      <class name="com.qa.test.LoginPageTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.qa.test.LoginPageTest@1500955a]" name="test1" is-config="true" duration-ms="14463" started-at="2018-05-17T10:40:24Z" finished-at="2018-05-17T10:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.qa.test.LoginPageTest@1500955a]" name="test2" duration-ms="20" started-at="2018-05-17T10:40:38Z" finished-at="2018-05-17T10:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.qa.test.LoginPageTest@1500955a]" name="test3" duration-ms="2373" started-at="2018-05-17T10:40:38Z" finished-at="2018-05-17T10:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@1500955a]" name="tearDown" is-config="true" duration-ms="1705" started-at="2018-05-17T10:40:41Z" finished-at="2018-05-17T10:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.LoginPageTest -->
+    </test> <!-- Make my Trip Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>
