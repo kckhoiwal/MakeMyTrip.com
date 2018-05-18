@@ -1,15 +1,14 @@
 package com.qa.utils;
 
-import java.io.IOException;
-
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
 import com.qa.base.TestBase;
-	 
-	 public class WebEventListener extends TestBase implements WebDriverEventListener {
+
+public class WebEventListener extends TestBase implements WebDriverEventListener {
 	 
 	 	public void beforeNavigateTo(String url, WebDriver driver) {
 	 		System.out.println("Before navigating to: '"  +url +  "'");
@@ -112,6 +111,34 @@ import com.qa.base.TestBase;
 	 		// TODO Auto-generated method stub
 	 
 	 	}
+
+		
+
+		@Override
+		public <X> void afterGetScreenshotAs(OutputType<X> arg0, X arg1) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void afterSwitchToWindow(String arg0, WebDriver arg1) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		
+
+		@Override
+		public <X> void beforeGetScreenshotAs(OutputType<X> arg0) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void beforeSwitchToWindow(String arg0, WebDriver arg1) {
+			// TODO Auto-generated method stub
+			
+		}
 
 		
 	 

@@ -1,9 +1,11 @@
 
 package com.qa.ExtentReportListner;
 
+
+
 import java.io.File;
+import java.sql.Date;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -68,9 +70,9 @@ public class ExtentReporterNG implements IReporter {
 		}
 	}
 
-	private Date getTime(long millis) {
+	private java.util.Date getTime(long millis) {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTimeInMillis(millis);
-		return calendar.getTime();
+		return  calendar.getTime();
 	}
 }

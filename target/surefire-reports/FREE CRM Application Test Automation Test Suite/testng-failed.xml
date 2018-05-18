@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListner.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Make my Trip Test Cases(failed)">
+    <classes>
+      <class name="com.qa.test.LoginPageTest">
+        <methods>
+          <include name="test3"/>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.qa.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Make my Trip Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
