@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="5767" started-at="2018-05-18T20:24:03Z" finished-at="2018-05-18T20:24:09Z">
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="4452" started-at="2018-05-18T21:07:39Z" finished-at="2018-05-18T21:07:43Z">
     <groups>
     </groups>
-    <test name="Make my Trip Test Cases" duration-ms="5767" started-at="2018-05-18T20:24:03Z" finished-at="2018-05-18T20:24:09Z">
+    <test name="Make my Trip Test Cases" duration-ms="4452" started-at="2018-05-18T21:07:39Z" finished-at="2018-05-18T21:07:43Z">
       <class name="com.qa.test.LoginPageTest">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.qa.test.LoginPageTest@71bbf57e]" name="test1" is-config="true" duration-ms="32482" started-at="2018-05-18T20:23:30Z" finished-at="2018-05-18T20:24:03Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.qa.test.LoginPageTest@711f39f9]" name="test1" is-config="true" duration-ms="22535" started-at="2018-05-18T21:07:16Z" finished-at="2018-05-18T21:07:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.qa.test.LoginPageTest@71bbf57e]" name="test2" duration-ms="32" started-at="2018-05-18T20:24:03Z" finished-at="2018-05-18T20:24:03Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.qa.test.LoginPageTest@711f39f9]" name="test2" duration-ms="108" started-at="2018-05-18T21:07:39Z" finished-at="2018-05-18T21:07:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.qa.test.LoginPageTest@71bbf57e]" name="test3" duration-ms="5594" started-at="2018-05-18T20:24:03Z" finished-at="2018-05-18T20:24:09Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.qa.test.LoginPageTest@711f39f9]" name="test3" duration-ms="4173" started-at="2018-05-18T21:07:39Z" finished-at="2018-05-18T21:07:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@71bbf57e]" name="tearDown" is-config="true" duration-ms="1523" started-at="2018-05-18T20:24:09Z" finished-at="2018-05-18T20:24:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@711f39f9]" name="tearDown" is-config="true" duration-ms="984" started-at="2018-05-18T21:07:43Z" finished-at="2018-05-18T21:07:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
